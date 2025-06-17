@@ -4,161 +4,7 @@
   <meta charset="UTF-8">
   <title>artive.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <style>
-    * {
-      margin: 3px; 
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      font-family: 'NanumSquareRoundB', sans-serif;
-      background-color: #f6ffff;
-      color: black;
-    }
-
-    a {
-      text-decoration: none;
-      color: inherit;
-    }
-
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 0.6rem 1rem;
-      background: #e6fcfc;
-      color: #000;
-    }
-
-    nav {
-      display: flex;
-    }
-
-    nav a {
-      margin-left: 1.5rem;
-      font-weight: bold;
-    }
-
-    .hero {
-      text-align: center;
-      background: linear-gradient(135deg, #ffffff,#edfbfb,#e6fcfc);
-      padding: 10rem 6rem;
-      color: black;
-    }
-
-    .hero h1 {
-      font-size: 5rem;
-    }
-
-    .hero p {
-      font-size: 2rem;
-      margin-top: 2rem;
-    }
-
-    .love {
-      padding: 4rem 2rem;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    .love h2 {
-      text-align: center;
-      margin-bottom: 2rem;
-    }
-
-    .projects {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-      gap: 2rem;
-    }
-
-    .project {
-      background: #fff;
-      border-radius: 30px;
-      padding: 2rem;
-      box-shadow: 0 15px 25px rgba(0,0,0,0.1);
-      transition: 0.3s;
-    }
-
-    .project:hover {
-      transform: translateY(-10px);
-    }
-
-    footer {
-      background: #e6fcfc;
-      color: #000000;
-      text-align: center;
-      padding: 2rem;
-      margin-top: 4rem;
-    }
-
-    .floating-buttons {
-      position: fixed;
-      bottom: 30px;
-      right: 30px;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-      z-index: 999;
-    }
-
-    .circle-btn {
-      width: 60px;
-      height: 60px;
-      background-color: #bef5f5;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 24px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
-    }
-
-    .circle-btn:hover {
-      background-color: #444;
-      color: white;
-    }
-
-    .modal {
-      display: none;
-      position: fixed;
-      top: 0; left: 0;
-      width: 100%; height: 100%;
-      background: rgba(0,0,0,0.6);
-      justify-content: center;
-      align-items: center;
-    }
-
-    .modal-content {
-      background: white;
-      padding: 20px;
-      border-radius: 10px;
-      width: 300px;
-    }
-
-    .modal-content input,
-    .modal-content textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 10px;
-      border-radius: 5px;
-      border: 1px solid #ccc;
-    }
-
-    .modal-content input[type="submit"] {
-      background: #e6fcfc;
-      border: none;
-      cursor: pointer;
-    }
-
-    .close-btn {
-      float: right;
-      font-size: 20px;
-      color: red;
-      cursor: pointer;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <div id="top"></div>
@@ -178,6 +24,7 @@
     <img src="logo.png" width="500">
     <h1>"Pick a Color, Unlock a Painting"</h1>
     <h2>아름다운 작품들을 감상해보세요</h2>
+    <pre>   </pre>
     <h3>작품은 계속 추가됩니다...</h3>
   </section>
 
@@ -248,6 +95,5 @@
       </form>
     </div>
   </div>
-
 </body>
 </html>
